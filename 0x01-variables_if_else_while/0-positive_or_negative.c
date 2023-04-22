@@ -1,7 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /* more headers goes there */
+
+/**
+ * main - checking if the number assigned to n is positive or negative;
+ * Return: 0;
+ */
+
 
 /* betty style doc for function main goes there */
 int main(void)
