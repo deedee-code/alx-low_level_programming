@@ -2,7 +2,7 @@
 /**
  * _islower - checks for lowercase character;
  * @c - The character in ASCII table;
- * Return: Always 0;
+ * Return: 1 if its lowercae, else 0;
  */
 int _islower(int c)
 {
