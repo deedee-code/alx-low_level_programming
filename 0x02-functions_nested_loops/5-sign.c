@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * print_sign - Determines if the inut number
- * is greater than zero, is zero, is less than zero
+ * print_sign - Determines if the inut number is greater than zero, is zero, is less than zero
  *
  * @n: The input nmuber as an integer
  * Return: 1 is greater than zero, 0 is zero
