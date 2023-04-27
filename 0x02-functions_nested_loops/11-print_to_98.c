@@ -2,7 +2,6 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98
  * @n: input a number
- * Return: 0
  */
 void print_to_98(int n)
 {
@@ -12,5 +11,4 @@ void print_to_98(int n)
 		_putchar(',');
 		_putchar('\n');
 	}
-	return (0);
 }
