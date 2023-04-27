@@ -1,7 +1,10 @@
 #include "main.h"
 /**
  * int _abs - compute the absolute value of an integer
- * @i: input nmuber as an integer
+ * 
+ * @i: input number as an integer
+ * 
+ * Return: absolute value
  */
 int _abs(int i)
 {
