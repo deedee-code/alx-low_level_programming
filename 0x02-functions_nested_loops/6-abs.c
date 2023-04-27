@@ -3,7 +3,7 @@
  * int _abs - compute the absolute value of an integer
  * @i: input nmuber as an integer
  */
-int _abs(int) 
+int _abs(int i)
 {
 	if (i >= 0)
 	{
@@ -11,6 +11,6 @@ int _abs(int)
 	}
 	else
 	{
-		return (i * -1;
+		return (i * -1);
 	}
 }
