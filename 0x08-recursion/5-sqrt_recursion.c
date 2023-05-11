@@ -1,0 +1,31 @@
+#include "main.h"
+
+int _natural_sqrt_recursion(int n, int i);
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: input a value
+ * Return: 0
+ */
+
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+		return (-1);
+	return (_natural_sqrt_recursion(n, 0));
+}
+
+/**
+ * _natural_sqrt_recursion - return the natural square root of a number
+ * @n: input a value
+ * @i: input a value
+ * Return: 0
+ */
+
+int _natural_sqrt_recursion(int n, int i)
+{
+	if (i * i > n)
+		return (0);
+	if (i * i == n)
+		return (1);
+	return (_natural_sqrt_recursion(n, i + 1));
+}
